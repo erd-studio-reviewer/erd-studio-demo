@@ -22,7 +22,7 @@ columns:
     dataType: VARCHAR
     description: Full customer name — not unique, so never a key
     scdType: 2
-  - name: email
+  - name: email_address
     dataType: VARCHAR
     description: Customer email address
     scdType: 1
