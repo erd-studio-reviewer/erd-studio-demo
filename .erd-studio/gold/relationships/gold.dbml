@@ -23,41 +23,6 @@ use { table gold.dim_21 } from '../tables/gold/dim_21.dbml'
 use { table gold.dim_22 } from '../tables/gold/dim_22.dbml'
 use { table gold.dim_23 } from '../tables/gold/dim_23.dbml'
 use { table gold.dim_24 } from '../tables/gold/dim_24.dbml'
-use { table gold.dim_25 } from '../tables/gold/dim_25.dbml'
-use { table gold.dim_26 } from '../tables/gold/dim_26.dbml'
-use { table gold.dim_27 } from '../tables/gold/dim_27.dbml'
-use { table gold.dim_28 } from '../tables/gold/dim_28.dbml'
-use { table gold.dim_29 } from '../tables/gold/dim_29.dbml'
-use { table gold.dim_30 } from '../tables/gold/dim_30.dbml'
-use { table gold.dim_31 } from '../tables/gold/dim_31.dbml'
-use { table gold.dim_32 } from '../tables/gold/dim_32.dbml'
-use { table gold.dim_33 } from '../tables/gold/dim_33.dbml'
-use { table gold.dim_34 } from '../tables/gold/dim_34.dbml'
-use { table gold.dim_35 } from '../tables/gold/dim_35.dbml'
-use { table gold.dim_36 } from '../tables/gold/dim_36.dbml'
-use { table gold.dim_37 } from '../tables/gold/dim_37.dbml'
-use { table gold.dim_38 } from '../tables/gold/dim_38.dbml'
-use { table gold.dim_39 } from '../tables/gold/dim_39.dbml'
-use { table gold.dim_40 } from '../tables/gold/dim_40.dbml'
-use { table gold.dim_41 } from '../tables/gold/dim_41.dbml'
-use { table gold.dim_42 } from '../tables/gold/dim_42.dbml'
-use { table gold.dim_43 } from '../tables/gold/dim_43.dbml'
-use { table gold.dim_44 } from '../tables/gold/dim_44.dbml'
-use { table gold.dim_45 } from '../tables/gold/dim_45.dbml'
-use { table gold.dim_46 } from '../tables/gold/dim_46.dbml'
-use { table gold.dim_47 } from '../tables/gold/dim_47.dbml'
-use { table gold.dim_48 } from '../tables/gold/dim_48.dbml'
-use { table gold.dim_49 } from '../tables/gold/dim_49.dbml'
-use { table gold.dim_50 } from '../tables/gold/dim_50.dbml'
-use { table gold.dim_51 } from '../tables/gold/dim_51.dbml'
-use { table gold.dim_52 } from '../tables/gold/dim_52.dbml'
-use { table gold.dim_53 } from '../tables/gold/dim_53.dbml'
-use { table gold.dim_54 } from '../tables/gold/dim_54.dbml'
-use { table gold.dim_55 } from '../tables/gold/dim_55.dbml'
-use { table gold.dim_56 } from '../tables/gold/dim_56.dbml'
-use { table gold.dim_57 } from '../tables/gold/dim_57.dbml'
-use { table gold.dim_58 } from '../tables/gold/dim_58.dbml'
-use { table gold.dim_59 } from '../tables/gold/dim_59.dbml'
 use { table gold.fct_00 } from '../tables/gold/fct_00.dbml'
 use { table gold.fct_01 } from '../tables/gold/fct_01.dbml'
 use { table gold.fct_02 } from '../tables/gold/fct_02.dbml'
@@ -73,229 +38,184 @@ use { table gold.fct_11 } from '../tables/gold/fct_11.dbml'
 use { table gold.fct_12 } from '../tables/gold/fct_12.dbml'
 use { table gold.fct_13 } from '../tables/gold/fct_13.dbml'
 use { table gold.fct_14 } from '../tables/gold/fct_14.dbml'
-use { table gold.fct_15 } from '../tables/gold/fct_15.dbml'
-use { table gold.fct_16 } from '../tables/gold/fct_16.dbml'
-use { table gold.fct_17 } from '../tables/gold/fct_17.dbml'
-use { table gold.fct_18 } from '../tables/gold/fct_18.dbml'
-use { table gold.fct_19 } from '../tables/gold/fct_19.dbml'
-use { table gold.fct_20 } from '../tables/gold/fct_20.dbml'
-use { table gold.fct_21 } from '../tables/gold/fct_21.dbml'
-use { table gold.fct_22 } from '../tables/gold/fct_22.dbml'
-use { table gold.fct_23 } from '../tables/gold/fct_23.dbml'
-use { table gold.fct_24 } from '../tables/gold/fct_24.dbml'
-use { table gold.fct_25 } from '../tables/gold/fct_25.dbml'
-use { table gold.fct_26 } from '../tables/gold/fct_26.dbml'
-use { table gold.fct_27 } from '../tables/gold/fct_27.dbml'
-use { table gold.fct_28 } from '../tables/gold/fct_28.dbml'
-use { table gold.fct_29 } from '../tables/gold/fct_29.dbml'
-use { table gold.fct_30 } from '../tables/gold/fct_30.dbml'
-use { table gold.fct_31 } from '../tables/gold/fct_31.dbml'
-use { table gold.fct_32 } from '../tables/gold/fct_32.dbml'
-use { table gold.fct_33 } from '../tables/gold/fct_33.dbml'
-use { table gold.fct_34 } from '../tables/gold/fct_34.dbml'
-use { table gold.fct_35 } from '../tables/gold/fct_35.dbml'
-use { table gold.fct_36 } from '../tables/gold/fct_36.dbml'
-use { table gold.fct_37 } from '../tables/gold/fct_37.dbml'
-use { table gold.fct_38 } from '../tables/gold/fct_38.dbml'
-use { table gold.fct_39 } from '../tables/gold/fct_39.dbml'
 
 Ref: gold.fct_00.dim_00_key >? gold.dim_00.dim_00_key
-Ref: gold.fct_00.dim_13_key >? gold.dim_13.dim_13_key
-Ref: gold.fct_00.dim_26_key >? gold.dim_26.dim_26_key
-Ref: gold.fct_00.dim_39_key >? gold.dim_39.dim_39_key
-Ref: gold.fct_00.dim_52_key >? gold.dim_52.dim_52_key
+Ref: gold.fct_00.dim_02_key >? gold.dim_02.dim_02_key
+Ref: gold.fct_00.dim_04_key >? gold.dim_04.dim_04_key
+Ref: gold.fct_00.dim_06_key >? gold.dim_06.dim_06_key
+Ref: gold.fct_00.dim_08_key >? gold.dim_08.dim_08_key
+Ref: gold.fct_00.dim_10_key >? gold.dim_10.dim_10_key
+Ref: gold.fct_00.dim_12_key >? gold.dim_12.dim_12_key
+Ref: gold.fct_00.dim_14_key >? gold.dim_14.dim_14_key
+Ref: gold.fct_00.dim_16_key >? gold.dim_16.dim_16_key
+Ref: gold.fct_00.dim_18_key >? gold.dim_18.dim_18_key
+Ref: gold.fct_00.dim_20_key >? gold.dim_20.dim_20_key
+Ref: gold.fct_00.dim_22_key >? gold.dim_22.dim_22_key
+Ref: gold.fct_01.dim_00_key >? gold.dim_00.dim_00_key
+Ref: gold.fct_01.dim_02_key >? gold.dim_02.dim_02_key
+Ref: gold.fct_01.dim_05_key >? gold.dim_05.dim_05_key
 Ref: gold.fct_01.dim_07_key >? gold.dim_07.dim_07_key
-Ref: gold.fct_01.dim_20_key >? gold.dim_20.dim_20_key
-Ref: gold.fct_01.dim_33_key >? gold.dim_33.dim_33_key
-Ref: gold.fct_01.dim_46_key >? gold.dim_46.dim_46_key
-Ref: gold.fct_01.dim_59_key >? gold.dim_59.dim_59_key
-Ref: gold.fct_02.dim_06_key >? gold.dim_06.dim_06_key
+Ref: gold.fct_01.dim_09_key >? gold.dim_09.dim_09_key
+Ref: gold.fct_01.dim_11_key >? gold.dim_11.dim_11_key
+Ref: gold.fct_01.dim_13_key >? gold.dim_13.dim_13_key
+Ref: gold.fct_01.dim_15_key >? gold.dim_15.dim_15_key
+Ref: gold.fct_01.dim_17_key >? gold.dim_17.dim_17_key
+Ref: gold.fct_01.dim_19_key >? gold.dim_19.dim_19_key
+Ref: gold.fct_01.dim_21_key >? gold.dim_21.dim_21_key
+Ref: gold.fct_01.dim_23_key >? gold.dim_23.dim_23_key
+Ref: gold.fct_02.dim_01_key >? gold.dim_01.dim_01_key
+Ref: gold.fct_02.dim_03_key >? gold.dim_03.dim_03_key
+Ref: gold.fct_02.dim_05_key >? gold.dim_05.dim_05_key
+Ref: gold.fct_02.dim_07_key >? gold.dim_07.dim_07_key
+Ref: gold.fct_02.dim_10_key >? gold.dim_10.dim_10_key
+Ref: gold.fct_02.dim_12_key >? gold.dim_12.dim_12_key
 Ref: gold.fct_02.dim_14_key >? gold.dim_14.dim_14_key
-Ref: gold.fct_02.dim_27_key >? gold.dim_27.dim_27_key
-Ref: gold.fct_02.dim_40_key >? gold.dim_40.dim_40_key
-Ref: gold.fct_02.dim_53_key >? gold.dim_53.dim_53_key
+Ref: gold.fct_02.dim_16_key >? gold.dim_16.dim_16_key
+Ref: gold.fct_02.dim_18_key >? gold.dim_18.dim_18_key
+Ref: gold.fct_02.dim_20_key >? gold.dim_20.dim_20_key
+Ref: gold.fct_02.dim_22_key >? gold.dim_22.dim_22_key
+Ref: gold.fct_02.dim_24_key >? gold.dim_24.dim_24_key
 Ref: gold.fct_03.dim_00_key >? gold.dim_00.dim_00_key
-Ref: gold.fct_03.dim_13_key >? gold.dim_13.dim_13_key
+Ref: gold.fct_03.dim_02_key >? gold.dim_02.dim_02_key
+Ref: gold.fct_03.dim_04_key >? gold.dim_04.dim_04_key
+Ref: gold.fct_03.dim_06_key >? gold.dim_06.dim_06_key
+Ref: gold.fct_03.dim_08_key >? gold.dim_08.dim_08_key
+Ref: gold.fct_03.dim_10_key >? gold.dim_10.dim_10_key
+Ref: gold.fct_03.dim_12_key >? gold.dim_12.dim_12_key
+Ref: gold.fct_03.dim_15_key >? gold.dim_15.dim_15_key
+Ref: gold.fct_03.dim_17_key >? gold.dim_17.dim_17_key
+Ref: gold.fct_03.dim_19_key >? gold.dim_19.dim_19_key
 Ref: gold.fct_03.dim_21_key >? gold.dim_21.dim_21_key
-Ref: gold.fct_03.dim_34_key >? gold.dim_34.dim_34_key
-Ref: gold.fct_03.dim_47_key >? gold.dim_47.dim_47_key
+Ref: gold.fct_03.dim_23_key >? gold.dim_23.dim_23_key
+Ref: gold.fct_04.dim_01_key >? gold.dim_01.dim_01_key
+Ref: gold.fct_04.dim_03_key >? gold.dim_03.dim_03_key
+Ref: gold.fct_04.dim_05_key >? gold.dim_05.dim_05_key
 Ref: gold.fct_04.dim_07_key >? gold.dim_07.dim_07_key
+Ref: gold.fct_04.dim_09_key >? gold.dim_09.dim_09_key
+Ref: gold.fct_04.dim_11_key >? gold.dim_11.dim_11_key
+Ref: gold.fct_04.dim_13_key >? gold.dim_13.dim_13_key
+Ref: gold.fct_04.dim_15_key >? gold.dim_15.dim_15_key
+Ref: gold.fct_04.dim_17_key >? gold.dim_17.dim_17_key
 Ref: gold.fct_04.dim_20_key >? gold.dim_20.dim_20_key
-Ref: gold.fct_04.dim_28_key >? gold.dim_28.dim_28_key
-Ref: gold.fct_04.dim_41_key >? gold.dim_41.dim_41_key
-Ref: gold.fct_04.dim_54_key >? gold.dim_54.dim_54_key
-Ref: gold.fct_05.dim_01_key >? gold.dim_01.dim_01_key
+Ref: gold.fct_04.dim_22_key >? gold.dim_22.dim_22_key
+Ref: gold.fct_04.dim_24_key >? gold.dim_24.dim_24_key
+Ref: gold.fct_05.dim_00_key >? gold.dim_00.dim_00_key
+Ref: gold.fct_05.dim_02_key >? gold.dim_02.dim_02_key
+Ref: gold.fct_05.dim_04_key >? gold.dim_04.dim_04_key
+Ref: gold.fct_05.dim_06_key >? gold.dim_06.dim_06_key
+Ref: gold.fct_05.dim_08_key >? gold.dim_08.dim_08_key
+Ref: gold.fct_05.dim_10_key >? gold.dim_10.dim_10_key
+Ref: gold.fct_05.dim_12_key >? gold.dim_12.dim_12_key
 Ref: gold.fct_05.dim_14_key >? gold.dim_14.dim_14_key
-Ref: gold.fct_05.dim_27_key >? gold.dim_27.dim_27_key
-Ref: gold.fct_05.dim_35_key >? gold.dim_35.dim_35_key
-Ref: gold.fct_05.dim_48_key >? gold.dim_48.dim_48_key
-Ref: gold.fct_06.dim_08_key >? gold.dim_08.dim_08_key
+Ref: gold.fct_05.dim_16_key >? gold.dim_16.dim_16_key
+Ref: gold.fct_05.dim_18_key >? gold.dim_18.dim_18_key
+Ref: gold.fct_05.dim_20_key >? gold.dim_20.dim_20_key
+Ref: gold.fct_05.dim_22_key >? gold.dim_22.dim_22_key
+Ref: gold.fct_06.dim_00_key >? gold.dim_00.dim_00_key
+Ref: gold.fct_06.dim_02_key >? gold.dim_02.dim_02_key
+Ref: gold.fct_06.dim_05_key >? gold.dim_05.dim_05_key
+Ref: gold.fct_06.dim_07_key >? gold.dim_07.dim_07_key
+Ref: gold.fct_06.dim_09_key >? gold.dim_09.dim_09_key
+Ref: gold.fct_06.dim_11_key >? gold.dim_11.dim_11_key
+Ref: gold.fct_06.dim_13_key >? gold.dim_13.dim_13_key
+Ref: gold.fct_06.dim_15_key >? gold.dim_15.dim_15_key
+Ref: gold.fct_06.dim_17_key >? gold.dim_17.dim_17_key
+Ref: gold.fct_06.dim_19_key >? gold.dim_19.dim_19_key
 Ref: gold.fct_06.dim_21_key >? gold.dim_21.dim_21_key
-Ref: gold.fct_06.dim_34_key >? gold.dim_34.dim_34_key
-Ref: gold.fct_06.dim_42_key >? gold.dim_42.dim_42_key
-Ref: gold.fct_06.dim_55_key >? gold.dim_55.dim_55_key
-Ref: gold.fct_07.dim_02_key >? gold.dim_02.dim_02_key
-Ref: gold.fct_07.dim_15_key >? gold.dim_15.dim_15_key
-Ref: gold.fct_07.dim_28_key >? gold.dim_28.dim_28_key
-Ref: gold.fct_07.dim_41_key >? gold.dim_41.dim_41_key
-Ref: gold.fct_07.dim_49_key >? gold.dim_49.dim_49_key
-Ref: gold.fct_08.dim_09_key >? gold.dim_09.dim_09_key
-Ref: gold.fct_08.dim_22_key >? gold.dim_22.dim_22_key
-Ref: gold.fct_08.dim_35_key >? gold.dim_35.dim_35_key
-Ref: gold.fct_08.dim_48_key >? gold.dim_48.dim_48_key
-Ref: gold.fct_08.dim_56_key >? gold.dim_56.dim_56_key
+Ref: gold.fct_06.dim_23_key >? gold.dim_23.dim_23_key
+Ref: gold.fct_07.dim_01_key >? gold.dim_01.dim_01_key
+Ref: gold.fct_07.dim_03_key >? gold.dim_03.dim_03_key
+Ref: gold.fct_07.dim_05_key >? gold.dim_05.dim_05_key
+Ref: gold.fct_07.dim_07_key >? gold.dim_07.dim_07_key
+Ref: gold.fct_07.dim_10_key >? gold.dim_10.dim_10_key
+Ref: gold.fct_07.dim_12_key >? gold.dim_12.dim_12_key
+Ref: gold.fct_07.dim_14_key >? gold.dim_14.dim_14_key
+Ref: gold.fct_07.dim_16_key >? gold.dim_16.dim_16_key
+Ref: gold.fct_07.dim_18_key >? gold.dim_18.dim_18_key
+Ref: gold.fct_07.dim_20_key >? gold.dim_20.dim_20_key
+Ref: gold.fct_07.dim_22_key >? gold.dim_22.dim_22_key
+Ref: gold.fct_07.dim_24_key >? gold.dim_24.dim_24_key
+Ref: gold.fct_08.dim_00_key >? gold.dim_00.dim_00_key
+Ref: gold.fct_08.dim_02_key >? gold.dim_02.dim_02_key
+Ref: gold.fct_08.dim_04_key >? gold.dim_04.dim_04_key
+Ref: gold.fct_08.dim_06_key >? gold.dim_06.dim_06_key
+Ref: gold.fct_08.dim_08_key >? gold.dim_08.dim_08_key
+Ref: gold.fct_08.dim_10_key >? gold.dim_10.dim_10_key
+Ref: gold.fct_08.dim_12_key >? gold.dim_12.dim_12_key
+Ref: gold.fct_08.dim_15_key >? gold.dim_15.dim_15_key
+Ref: gold.fct_08.dim_17_key >? gold.dim_17.dim_17_key
+Ref: gold.fct_08.dim_19_key >? gold.dim_19.dim_19_key
+Ref: gold.fct_08.dim_21_key >? gold.dim_21.dim_21_key
+Ref: gold.fct_08.dim_23_key >? gold.dim_23.dim_23_key
+Ref: gold.fct_09.dim_01_key >? gold.dim_01.dim_01_key
 Ref: gold.fct_09.dim_03_key >? gold.dim_03.dim_03_key
-Ref: gold.fct_09.dim_16_key >? gold.dim_16.dim_16_key
-Ref: gold.fct_09.dim_29_key >? gold.dim_29.dim_29_key
-Ref: gold.fct_09.dim_42_key >? gold.dim_42.dim_42_key
-Ref: gold.fct_09.dim_55_key >? gold.dim_55.dim_55_key
+Ref: gold.fct_09.dim_05_key >? gold.dim_05.dim_05_key
+Ref: gold.fct_09.dim_07_key >? gold.dim_07.dim_07_key
+Ref: gold.fct_09.dim_09_key >? gold.dim_09.dim_09_key
+Ref: gold.fct_09.dim_11_key >? gold.dim_11.dim_11_key
+Ref: gold.fct_09.dim_13_key >? gold.dim_13.dim_13_key
+Ref: gold.fct_09.dim_15_key >? gold.dim_15.dim_15_key
+Ref: gold.fct_09.dim_17_key >? gold.dim_17.dim_17_key
+Ref: gold.fct_09.dim_20_key >? gold.dim_20.dim_20_key
+Ref: gold.fct_09.dim_22_key >? gold.dim_22.dim_22_key
+Ref: gold.fct_09.dim_24_key >? gold.dim_24.dim_24_key
+Ref: gold.fct_10.dim_00_key >? gold.dim_00.dim_00_key
 Ref: gold.fct_10.dim_02_key >? gold.dim_02.dim_02_key
+Ref: gold.fct_10.dim_04_key >? gold.dim_04.dim_04_key
+Ref: gold.fct_10.dim_06_key >? gold.dim_06.dim_06_key
+Ref: gold.fct_10.dim_08_key >? gold.dim_08.dim_08_key
 Ref: gold.fct_10.dim_10_key >? gold.dim_10.dim_10_key
-Ref: gold.fct_10.dim_23_key >? gold.dim_23.dim_23_key
-Ref: gold.fct_10.dim_36_key >? gold.dim_36.dim_36_key
-Ref: gold.fct_10.dim_49_key >? gold.dim_49.dim_49_key
+Ref: gold.fct_10.dim_12_key >? gold.dim_12.dim_12_key
+Ref: gold.fct_10.dim_14_key >? gold.dim_14.dim_14_key
+Ref: gold.fct_10.dim_16_key >? gold.dim_16.dim_16_key
+Ref: gold.fct_10.dim_18_key >? gold.dim_18.dim_18_key
+Ref: gold.fct_10.dim_20_key >? gold.dim_20.dim_20_key
+Ref: gold.fct_10.dim_22_key >? gold.dim_22.dim_22_key
+Ref: gold.fct_11.dim_00_key >? gold.dim_00.dim_00_key
+Ref: gold.fct_11.dim_02_key >? gold.dim_02.dim_02_key
+Ref: gold.fct_11.dim_05_key >? gold.dim_05.dim_05_key
+Ref: gold.fct_11.dim_07_key >? gold.dim_07.dim_07_key
 Ref: gold.fct_11.dim_09_key >? gold.dim_09.dim_09_key
+Ref: gold.fct_11.dim_11_key >? gold.dim_11.dim_11_key
+Ref: gold.fct_11.dim_13_key >? gold.dim_13.dim_13_key
+Ref: gold.fct_11.dim_15_key >? gold.dim_15.dim_15_key
 Ref: gold.fct_11.dim_17_key >? gold.dim_17.dim_17_key
-Ref: gold.fct_11.dim_30_key >? gold.dim_30.dim_30_key
-Ref: gold.fct_11.dim_43_key >? gold.dim_43.dim_43_key
-Ref: gold.fct_11.dim_56_key >? gold.dim_56.dim_56_key
+Ref: gold.fct_11.dim_19_key >? gold.dim_19.dim_19_key
+Ref: gold.fct_11.dim_21_key >? gold.dim_21.dim_21_key
+Ref: gold.fct_11.dim_23_key >? gold.dim_23.dim_23_key
+Ref: gold.fct_12.dim_01_key >? gold.dim_01.dim_01_key
 Ref: gold.fct_12.dim_03_key >? gold.dim_03.dim_03_key
+Ref: gold.fct_12.dim_05_key >? gold.dim_05.dim_05_key
+Ref: gold.fct_12.dim_07_key >? gold.dim_07.dim_07_key
+Ref: gold.fct_12.dim_10_key >? gold.dim_10.dim_10_key
+Ref: gold.fct_12.dim_12_key >? gold.dim_12.dim_12_key
+Ref: gold.fct_12.dim_14_key >? gold.dim_14.dim_14_key
 Ref: gold.fct_12.dim_16_key >? gold.dim_16.dim_16_key
+Ref: gold.fct_12.dim_18_key >? gold.dim_18.dim_18_key
+Ref: gold.fct_12.dim_20_key >? gold.dim_20.dim_20_key
+Ref: gold.fct_12.dim_22_key >? gold.dim_22.dim_22_key
 Ref: gold.fct_12.dim_24_key >? gold.dim_24.dim_24_key
-Ref: gold.fct_12.dim_37_key >? gold.dim_37.dim_37_key
-Ref: gold.fct_12.dim_50_key >? gold.dim_50.dim_50_key
+Ref: gold.fct_13.dim_00_key >? gold.dim_00.dim_00_key
+Ref: gold.fct_13.dim_02_key >? gold.dim_02.dim_02_key
+Ref: gold.fct_13.dim_04_key >? gold.dim_04.dim_04_key
+Ref: gold.fct_13.dim_06_key >? gold.dim_06.dim_06_key
+Ref: gold.fct_13.dim_08_key >? gold.dim_08.dim_08_key
 Ref: gold.fct_13.dim_10_key >? gold.dim_10.dim_10_key
+Ref: gold.fct_13.dim_12_key >? gold.dim_12.dim_12_key
+Ref: gold.fct_13.dim_15_key >? gold.dim_15.dim_15_key
+Ref: gold.fct_13.dim_17_key >? gold.dim_17.dim_17_key
+Ref: gold.fct_13.dim_19_key >? gold.dim_19.dim_19_key
+Ref: gold.fct_13.dim_21_key >? gold.dim_21.dim_21_key
 Ref: gold.fct_13.dim_23_key >? gold.dim_23.dim_23_key
-Ref: gold.fct_13.dim_31_key >? gold.dim_31.dim_31_key
-Ref: gold.fct_13.dim_44_key >? gold.dim_44.dim_44_key
-Ref: gold.fct_13.dim_57_key >? gold.dim_57.dim_57_key
-Ref: gold.fct_14.dim_04_key >? gold.dim_04.dim_04_key
+Ref: gold.fct_14.dim_01_key >? gold.dim_01.dim_01_key
+Ref: gold.fct_14.dim_03_key >? gold.dim_03.dim_03_key
+Ref: gold.fct_14.dim_05_key >? gold.dim_05.dim_05_key
+Ref: gold.fct_14.dim_07_key >? gold.dim_07.dim_07_key
+Ref: gold.fct_14.dim_09_key >? gold.dim_09.dim_09_key
+Ref: gold.fct_14.dim_11_key >? gold.dim_11.dim_11_key
+Ref: gold.fct_14.dim_13_key >? gold.dim_13.dim_13_key
+Ref: gold.fct_14.dim_15_key >? gold.dim_15.dim_15_key
 Ref: gold.fct_14.dim_17_key >? gold.dim_17.dim_17_key
-Ref: gold.fct_14.dim_30_key >? gold.dim_30.dim_30_key
-Ref: gold.fct_14.dim_38_key >? gold.dim_38.dim_38_key
-Ref: gold.fct_14.dim_51_key >? gold.dim_51.dim_51_key
-Ref: gold.fct_15.dim_11_key >? gold.dim_11.dim_11_key
-Ref: gold.fct_15.dim_24_key >? gold.dim_24.dim_24_key
-Ref: gold.fct_15.dim_37_key >? gold.dim_37.dim_37_key
-Ref: gold.fct_15.dim_45_key >? gold.dim_45.dim_45_key
-Ref: gold.fct_15.dim_58_key >? gold.dim_58.dim_58_key
-Ref: gold.fct_16.dim_05_key >? gold.dim_05.dim_05_key
-Ref: gold.fct_16.dim_18_key >? gold.dim_18.dim_18_key
-Ref: gold.fct_16.dim_31_key >? gold.dim_31.dim_31_key
-Ref: gold.fct_16.dim_44_key >? gold.dim_44.dim_44_key
-Ref: gold.fct_16.dim_52_key >? gold.dim_52.dim_52_key
-Ref: gold.fct_17.dim_12_key >? gold.dim_12.dim_12_key
-Ref: gold.fct_17.dim_25_key >? gold.dim_25.dim_25_key
-Ref: gold.fct_17.dim_38_key >? gold.dim_38.dim_38_key
-Ref: gold.fct_17.dim_51_key >? gold.dim_51.dim_51_key
-Ref: gold.fct_17.dim_59_key >? gold.dim_59.dim_59_key
-Ref: gold.fct_18.dim_06_key >? gold.dim_06.dim_06_key
-Ref: gold.fct_18.dim_19_key >? gold.dim_19.dim_19_key
-Ref: gold.fct_18.dim_32_key >? gold.dim_32.dim_32_key
-Ref: gold.fct_18.dim_45_key >? gold.dim_45.dim_45_key
-Ref: gold.fct_18.dim_58_key >? gold.dim_58.dim_58_key
-Ref: gold.fct_19.dim_05_key >? gold.dim_05.dim_05_key
-Ref: gold.fct_19.dim_13_key >? gold.dim_13.dim_13_key
-Ref: gold.fct_19.dim_26_key >? gold.dim_26.dim_26_key
-Ref: gold.fct_19.dim_39_key >? gold.dim_39.dim_39_key
-Ref: gold.fct_19.dim_52_key >? gold.dim_52.dim_52_key
-Ref: gold.fct_20.dim_12_key >? gold.dim_12.dim_12_key
-Ref: gold.fct_20.dim_20_key >? gold.dim_20.dim_20_key
-Ref: gold.fct_20.dim_33_key >? gold.dim_33.dim_33_key
-Ref: gold.fct_20.dim_46_key >? gold.dim_46.dim_46_key
-Ref: gold.fct_20.dim_59_key >? gold.dim_59.dim_59_key
-Ref: gold.fct_21.dim_06_key >? gold.dim_06.dim_06_key
-Ref: gold.fct_21.dim_19_key >? gold.dim_19.dim_19_key
-Ref: gold.fct_21.dim_27_key >? gold.dim_27.dim_27_key
-Ref: gold.fct_21.dim_40_key >? gold.dim_40.dim_40_key
-Ref: gold.fct_21.dim_53_key >? gold.dim_53.dim_53_key
-Ref: gold.fct_22.dim_00_key >? gold.dim_00.dim_00_key
-Ref: gold.fct_22.dim_13_key >? gold.dim_13.dim_13_key
-Ref: gold.fct_22.dim_26_key >? gold.dim_26.dim_26_key
-Ref: gold.fct_22.dim_34_key >? gold.dim_34.dim_34_key
-Ref: gold.fct_22.dim_47_key >? gold.dim_47.dim_47_key
-Ref: gold.fct_23.dim_07_key >? gold.dim_07.dim_07_key
-Ref: gold.fct_23.dim_20_key >? gold.dim_20.dim_20_key
-Ref: gold.fct_23.dim_33_key >? gold.dim_33.dim_33_key
-Ref: gold.fct_23.dim_41_key >? gold.dim_41.dim_41_key
-Ref: gold.fct_23.dim_54_key >? gold.dim_54.dim_54_key
-Ref: gold.fct_24.dim_01_key >? gold.dim_01.dim_01_key
-Ref: gold.fct_24.dim_14_key >? gold.dim_14.dim_14_key
-Ref: gold.fct_24.dim_27_key >? gold.dim_27.dim_27_key
-Ref: gold.fct_24.dim_40_key >? gold.dim_40.dim_40_key
-Ref: gold.fct_24.dim_48_key >? gold.dim_48.dim_48_key
-Ref: gold.fct_25.dim_08_key >? gold.dim_08.dim_08_key
-Ref: gold.fct_25.dim_21_key >? gold.dim_21.dim_21_key
-Ref: gold.fct_25.dim_34_key >? gold.dim_34.dim_34_key
-Ref: gold.fct_25.dim_47_key >? gold.dim_47.dim_47_key
-Ref: gold.fct_25.dim_55_key >? gold.dim_55.dim_55_key
-Ref: gold.fct_26.dim_02_key >? gold.dim_02.dim_02_key
-Ref: gold.fct_26.dim_15_key >? gold.dim_15.dim_15_key
-Ref: gold.fct_26.dim_28_key >? gold.dim_28.dim_28_key
-Ref: gold.fct_26.dim_41_key >? gold.dim_41.dim_41_key
-Ref: gold.fct_26.dim_54_key >? gold.dim_54.dim_54_key
-Ref: gold.fct_27.dim_01_key >? gold.dim_01.dim_01_key
-Ref: gold.fct_27.dim_09_key >? gold.dim_09.dim_09_key
-Ref: gold.fct_27.dim_22_key >? gold.dim_22.dim_22_key
-Ref: gold.fct_27.dim_35_key >? gold.dim_35.dim_35_key
-Ref: gold.fct_27.dim_48_key >? gold.dim_48.dim_48_key
-Ref: gold.fct_28.dim_08_key >? gold.dim_08.dim_08_key
-Ref: gold.fct_28.dim_16_key >? gold.dim_16.dim_16_key
-Ref: gold.fct_28.dim_29_key >? gold.dim_29.dim_29_key
-Ref: gold.fct_28.dim_42_key >? gold.dim_42.dim_42_key
-Ref: gold.fct_28.dim_55_key >? gold.dim_55.dim_55_key
-Ref: gold.fct_29.dim_02_key >? gold.dim_02.dim_02_key
-Ref: gold.fct_29.dim_15_key >? gold.dim_15.dim_15_key
-Ref: gold.fct_29.dim_23_key >? gold.dim_23.dim_23_key
-Ref: gold.fct_29.dim_36_key >? gold.dim_36.dim_36_key
-Ref: gold.fct_29.dim_49_key >? gold.dim_49.dim_49_key
-Ref: gold.fct_30.dim_09_key >? gold.dim_09.dim_09_key
-Ref: gold.fct_30.dim_22_key >? gold.dim_22.dim_22_key
-Ref: gold.fct_30.dim_30_key >? gold.dim_30.dim_30_key
-Ref: gold.fct_30.dim_43_key >? gold.dim_43.dim_43_key
-Ref: gold.fct_30.dim_56_key >? gold.dim_56.dim_56_key
-Ref: gold.fct_31.dim_03_key >? gold.dim_03.dim_03_key
-Ref: gold.fct_31.dim_16_key >? gold.dim_16.dim_16_key
-Ref: gold.fct_31.dim_29_key >? gold.dim_29.dim_29_key
-Ref: gold.fct_31.dim_37_key >? gold.dim_37.dim_37_key
-Ref: gold.fct_31.dim_50_key >? gold.dim_50.dim_50_key
-Ref: gold.fct_32.dim_10_key >? gold.dim_10.dim_10_key
-Ref: gold.fct_32.dim_23_key >? gold.dim_23.dim_23_key
-Ref: gold.fct_32.dim_36_key >? gold.dim_36.dim_36_key
-Ref: gold.fct_32.dim_44_key >? gold.dim_44.dim_44_key
-Ref: gold.fct_32.dim_57_key >? gold.dim_57.dim_57_key
-Ref: gold.fct_33.dim_04_key >? gold.dim_04.dim_04_key
-Ref: gold.fct_33.dim_17_key >? gold.dim_17.dim_17_key
-Ref: gold.fct_33.dim_30_key >? gold.dim_30.dim_30_key
-Ref: gold.fct_33.dim_43_key >? gold.dim_43.dim_43_key
-Ref: gold.fct_33.dim_51_key >? gold.dim_51.dim_51_key
-Ref: gold.fct_34.dim_11_key >? gold.dim_11.dim_11_key
-Ref: gold.fct_34.dim_24_key >? gold.dim_24.dim_24_key
-Ref: gold.fct_34.dim_37_key >? gold.dim_37.dim_37_key
-Ref: gold.fct_34.dim_50_key >? gold.dim_50.dim_50_key
-Ref: gold.fct_34.dim_58_key >? gold.dim_58.dim_58_key
-Ref: gold.fct_35.dim_05_key >? gold.dim_05.dim_05_key
-Ref: gold.fct_35.dim_18_key >? gold.dim_18.dim_18_key
-Ref: gold.fct_35.dim_31_key >? gold.dim_31.dim_31_key
-Ref: gold.fct_35.dim_44_key >? gold.dim_44.dim_44_key
-Ref: gold.fct_35.dim_57_key >? gold.dim_57.dim_57_key
-Ref: gold.fct_36.dim_04_key >? gold.dim_04.dim_04_key
-Ref: gold.fct_36.dim_12_key >? gold.dim_12.dim_12_key
-Ref: gold.fct_36.dim_25_key >? gold.dim_25.dim_25_key
-Ref: gold.fct_36.dim_38_key >? gold.dim_38.dim_38_key
-Ref: gold.fct_36.dim_51_key >? gold.dim_51.dim_51_key
-Ref: gold.fct_37.dim_11_key >? gold.dim_11.dim_11_key
-Ref: gold.fct_37.dim_19_key >? gold.dim_19.dim_19_key
-Ref: gold.fct_37.dim_32_key >? gold.dim_32.dim_32_key
-Ref: gold.fct_37.dim_45_key >? gold.dim_45.dim_45_key
-Ref: gold.fct_37.dim_58_key >? gold.dim_58.dim_58_key
-Ref: gold.fct_38.dim_05_key >? gold.dim_05.dim_05_key
-Ref: gold.fct_38.dim_18_key >? gold.dim_18.dim_18_key
-Ref: gold.fct_38.dim_26_key >? gold.dim_26.dim_26_key
-Ref: gold.fct_38.dim_39_key >? gold.dim_39.dim_39_key
-Ref: gold.fct_38.dim_52_key >? gold.dim_52.dim_52_key
-Ref: gold.fct_39.dim_12_key >? gold.dim_12.dim_12_key
-Ref: gold.fct_39.dim_25_key >? gold.dim_25.dim_25_key
-Ref: gold.fct_39.dim_33_key >? gold.dim_33.dim_33_key
-Ref: gold.fct_39.dim_46_key >? gold.dim_46.dim_46_key
-Ref: gold.fct_39.dim_59_key >? gold.dim_59.dim_59_key
+Ref: gold.fct_14.dim_20_key >? gold.dim_20.dim_20_key
+Ref: gold.fct_14.dim_22_key >? gold.dim_22.dim_22_key
+Ref: gold.fct_14.dim_24_key >? gold.dim_24.dim_24_key

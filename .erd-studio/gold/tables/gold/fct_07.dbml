@@ -2,10 +2,17 @@ Table gold.fct_07 [
   role: 'transaction-fact'
 ] {
   fct_07_id BIGINT [pk]
-  dim_49_key INT [foreign_key: 'true']
-  dim_02_key INT [foreign_key: 'true']
-  dim_15_key INT [foreign_key: 'true']
-  dim_28_key INT [foreign_key: 'true']
-  dim_41_key INT [foreign_key: 'true']
+  dim_10_key INT [foreign_key: 'true']
+  dim_12_key INT [foreign_key: 'true']
+  dim_14_key INT [foreign_key: 'true']
+  dim_16_key INT [foreign_key: 'true']
+  dim_18_key INT [foreign_key: 'true']
+  dim_20_key INT [foreign_key: 'true']
+  dim_22_key INT [foreign_key: 'true']
+  dim_24_key INT [foreign_key: 'true']
+  dim_01_key INT [foreign_key: 'true']
+  dim_03_key INT [foreign_key: 'true']
+  dim_05_key INT [foreign_key: 'true']
+  dim_07_key INT [foreign_key: 'true']
   amount "DECIMAL(18,2)" [additive_type: 'additive']
 }

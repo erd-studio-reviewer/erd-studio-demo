@@ -1,5 +1,5 @@
 Project large_star {
-  Note: '100 tables, 200 relationships: a check that big diagrams route their lines in ERD Studio for Confluence'
+  Note: '40 tables, 180 relationships: a check that big diagrams route their lines in ERD Studio for Confluence'
   erd_schema_version: '7'
   erd_layout: '''
     dim_00 0 0
@@ -12,96 +12,36 @@ Project large_star {
     dim_07 2100 0
     dim_08 2400 0
     dim_09 2700 0
-    dim_10 0 200
-    dim_11 300 200
-    dim_12 600 200
-    dim_13 900 200
-    dim_14 1200 200
-    dim_15 1500 200
-    dim_16 1800 200
-    dim_17 2100 200
-    dim_18 2400 200
-    dim_19 2700 200
-    dim_20 0 400
-    dim_21 300 400
-    dim_22 600 400
-    dim_23 900 400
-    dim_24 1200 400
-    dim_25 1500 400
-    dim_26 1800 400
-    dim_27 2100 400
-    dim_28 2400 400
-    dim_29 2700 400
-    dim_30 0 1500
-    dim_31 300 1500
-    dim_32 600 1500
-    dim_33 900 1500
-    dim_34 1200 1500
-    dim_35 1500 1500
-    dim_36 1800 1500
-    dim_37 2100 1500
-    dim_38 2400 1500
-    dim_39 2700 1500
-    dim_40 0 1700
-    dim_41 300 1700
-    dim_42 600 1700
-    dim_43 900 1700
-    dim_44 1200 1700
-    dim_45 1500 1700
-    dim_46 1800 1700
-    dim_47 2100 1700
-    dim_48 2400 1700
-    dim_49 2700 1700
-    dim_50 0 1900
-    dim_51 300 1900
-    dim_52 600 1900
-    dim_53 900 1900
-    dim_54 1200 1900
-    dim_55 1500 1900
-    dim_56 1800 1900
-    dim_57 2100 1900
-    dim_58 2400 1900
-    dim_59 2700 1900
-    fct_00 150 700
-    fct_01 450 700
-    fct_02 750 700
-    fct_03 1050 700
-    fct_04 1350 700
-    fct_05 1650 700
-    fct_06 1950 700
-    fct_07 2250 700
-    fct_08 2550 700
-    fct_09 2850 700
-    fct_10 150 900
-    fct_11 450 900
-    fct_12 750 900
-    fct_13 1050 900
-    fct_14 1350 900
-    fct_15 1650 900
-    fct_16 1950 900
-    fct_17 2250 900
-    fct_18 2550 900
-    fct_19 2850 900
-    fct_20 150 1100
-    fct_21 450 1100
-    fct_22 750 1100
-    fct_23 1050 1100
-    fct_24 1350 1100
-    fct_25 1650 1100
-    fct_26 1950 1100
-    fct_27 2250 1100
-    fct_28 2550 1100
-    fct_29 2850 1100
-    fct_30 150 1300
-    fct_31 450 1300
-    fct_32 750 1300
-    fct_33 1050 1300
-    fct_34 1350 1300
-    fct_35 1650 1300
-    fct_36 1950 1300
-    fct_37 2250 1300
-    fct_38 2550 1300
-    fct_39 2850 1300
+    dim_10 3000 0
+    dim_11 3300 0
+    dim_12 3600 0
+    dim_13 0 1400
+    dim_14 300 1400
+    dim_15 600 1400
+    dim_16 900 1400
+    dim_17 1200 1400
+    dim_18 1500 1400
+    dim_19 1800 1400
+    dim_20 2100 1400
+    dim_21 2400 1400
+    dim_22 2700 1400
+    dim_23 3000 1400
+    dim_24 3300 1400
+    fct_00 100 450
+    fct_01 550 450
+    fct_02 1000 450
+    fct_03 1450 450
+    fct_04 1900 450
+    fct_05 2350 450
+    fct_06 2800 450
+    fct_07 3250 450
+    fct_08 100 850
+    fct_09 550 850
+    fct_10 1000 850
+    fct_11 1450 850
+    fct_12 1900 850
+    fct_13 2350 850
+    fct_14 2800 850
   '''
 }
 
@@ -130,41 +70,6 @@ use { table gold.dim_21 } from '../tables/gold/dim_21.dbml'
 use { table gold.dim_22 } from '../tables/gold/dim_22.dbml'
 use { table gold.dim_23 } from '../tables/gold/dim_23.dbml'
 use { table gold.dim_24 } from '../tables/gold/dim_24.dbml'
-use { table gold.dim_25 } from '../tables/gold/dim_25.dbml'
-use { table gold.dim_26 } from '../tables/gold/dim_26.dbml'
-use { table gold.dim_27 } from '../tables/gold/dim_27.dbml'
-use { table gold.dim_28 } from '../tables/gold/dim_28.dbml'
-use { table gold.dim_29 } from '../tables/gold/dim_29.dbml'
-use { table gold.dim_30 } from '../tables/gold/dim_30.dbml'
-use { table gold.dim_31 } from '../tables/gold/dim_31.dbml'
-use { table gold.dim_32 } from '../tables/gold/dim_32.dbml'
-use { table gold.dim_33 } from '../tables/gold/dim_33.dbml'
-use { table gold.dim_34 } from '../tables/gold/dim_34.dbml'
-use { table gold.dim_35 } from '../tables/gold/dim_35.dbml'
-use { table gold.dim_36 } from '../tables/gold/dim_36.dbml'
-use { table gold.dim_37 } from '../tables/gold/dim_37.dbml'
-use { table gold.dim_38 } from '../tables/gold/dim_38.dbml'
-use { table gold.dim_39 } from '../tables/gold/dim_39.dbml'
-use { table gold.dim_40 } from '../tables/gold/dim_40.dbml'
-use { table gold.dim_41 } from '../tables/gold/dim_41.dbml'
-use { table gold.dim_42 } from '../tables/gold/dim_42.dbml'
-use { table gold.dim_43 } from '../tables/gold/dim_43.dbml'
-use { table gold.dim_44 } from '../tables/gold/dim_44.dbml'
-use { table gold.dim_45 } from '../tables/gold/dim_45.dbml'
-use { table gold.dim_46 } from '../tables/gold/dim_46.dbml'
-use { table gold.dim_47 } from '../tables/gold/dim_47.dbml'
-use { table gold.dim_48 } from '../tables/gold/dim_48.dbml'
-use { table gold.dim_49 } from '../tables/gold/dim_49.dbml'
-use { table gold.dim_50 } from '../tables/gold/dim_50.dbml'
-use { table gold.dim_51 } from '../tables/gold/dim_51.dbml'
-use { table gold.dim_52 } from '../tables/gold/dim_52.dbml'
-use { table gold.dim_53 } from '../tables/gold/dim_53.dbml'
-use { table gold.dim_54 } from '../tables/gold/dim_54.dbml'
-use { table gold.dim_55 } from '../tables/gold/dim_55.dbml'
-use { table gold.dim_56 } from '../tables/gold/dim_56.dbml'
-use { table gold.dim_57 } from '../tables/gold/dim_57.dbml'
-use { table gold.dim_58 } from '../tables/gold/dim_58.dbml'
-use { table gold.dim_59 } from '../tables/gold/dim_59.dbml'
 use { table gold.fct_00 } from '../tables/gold/fct_00.dbml'
 use { table gold.fct_01 } from '../tables/gold/fct_01.dbml'
 use { table gold.fct_02 } from '../tables/gold/fct_02.dbml'
@@ -180,29 +85,4 @@ use { table gold.fct_11 } from '../tables/gold/fct_11.dbml'
 use { table gold.fct_12 } from '../tables/gold/fct_12.dbml'
 use { table gold.fct_13 } from '../tables/gold/fct_13.dbml'
 use { table gold.fct_14 } from '../tables/gold/fct_14.dbml'
-use { table gold.fct_15 } from '../tables/gold/fct_15.dbml'
-use { table gold.fct_16 } from '../tables/gold/fct_16.dbml'
-use { table gold.fct_17 } from '../tables/gold/fct_17.dbml'
-use { table gold.fct_18 } from '../tables/gold/fct_18.dbml'
-use { table gold.fct_19 } from '../tables/gold/fct_19.dbml'
-use { table gold.fct_20 } from '../tables/gold/fct_20.dbml'
-use { table gold.fct_21 } from '../tables/gold/fct_21.dbml'
-use { table gold.fct_22 } from '../tables/gold/fct_22.dbml'
-use { table gold.fct_23 } from '../tables/gold/fct_23.dbml'
-use { table gold.fct_24 } from '../tables/gold/fct_24.dbml'
-use { table gold.fct_25 } from '../tables/gold/fct_25.dbml'
-use { table gold.fct_26 } from '../tables/gold/fct_26.dbml'
-use { table gold.fct_27 } from '../tables/gold/fct_27.dbml'
-use { table gold.fct_28 } from '../tables/gold/fct_28.dbml'
-use { table gold.fct_29 } from '../tables/gold/fct_29.dbml'
-use { table gold.fct_30 } from '../tables/gold/fct_30.dbml'
-use { table gold.fct_31 } from '../tables/gold/fct_31.dbml'
-use { table gold.fct_32 } from '../tables/gold/fct_32.dbml'
-use { table gold.fct_33 } from '../tables/gold/fct_33.dbml'
-use { table gold.fct_34 } from '../tables/gold/fct_34.dbml'
-use { table gold.fct_35 } from '../tables/gold/fct_35.dbml'
-use { table gold.fct_36 } from '../tables/gold/fct_36.dbml'
-use { table gold.fct_37 } from '../tables/gold/fct_37.dbml'
-use { table gold.fct_38 } from '../tables/gold/fct_38.dbml'
-use { table gold.fct_39 } from '../tables/gold/fct_39.dbml'
 use * from '../relationships/gold.dbml'
