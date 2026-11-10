@@ -1,0 +1,11 @@
+Table gold.fct_03 [
+  role: 'transaction-fact'
+] {
+  fct_03_id BIGINT [pk]
+  dim_21_key INT [foreign_key: 'true']
+  dim_34_key INT [foreign_key: 'true']
+  dim_47_key INT [foreign_key: 'true']
+  dim_00_key INT [foreign_key: 'true']
+  dim_13_key INT [foreign_key: 'true']
+  amount "DECIMAL(18,2)" [additive_type: 'additive']
+}

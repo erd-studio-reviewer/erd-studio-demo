@@ -1,0 +1,7 @@
+Table gold.dim_03 [
+  role: 'dimension'
+] {
+  dim_03_key INT [pk]
+  dim_03_code VARCHAR [natural_key: 'true']
+  label VARCHAR
+}
